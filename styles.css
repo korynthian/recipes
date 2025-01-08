@@ -3,7 +3,19 @@ body {
     color: #00FF00;
     font-family: 'Courier New', monospace;
 }
-a {
-    color: #39b7e0 
-/*     Light Blue Color ^^^ */
+/* unvisited link: Picton Blue */
+a:link {
+  color: #3cc1ec;
+}
+/* visited link: Scooter */
+a:visited {
+  color: #31a3c7;
+}
+/* mouse over link: Scooter */
+a:hover {
+  color: #3dd0ff;
+}
+/* selected link: Blizzard Blue */
+a:active {
+  color: #9edef3;
 }
