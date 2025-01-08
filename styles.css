@@ -3,19 +3,15 @@ body {
     color: #00FF00;
     font-family: 'Courier New', monospace;
 }
-/* unvisited link: Picton Blue */
-a:link {
-  color: #3cc1ec;
+a:link, a:visited {
+  background-color: #f44336;
+  color: white;
+  padding: 14px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
 }
-/* visited link: Scooter */
-a:visited {
-  color: #31a3c7;
-}
-/* mouse over link: French Pass */
-a:hover {
-  color: #c3effd;
-}
-/* selected link: Blizzard Blue */
-a:active {
-  color: #9edef3;
+
+a:hover, a:active {
+  background-color: red;
 }
