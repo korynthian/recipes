@@ -15,3 +15,7 @@ a:link, a:visited {
 a:hover, a:active {
   background-color: #353535;
 }
+
+#code {
+    margin-top: 50%;
+}
