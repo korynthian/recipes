@@ -19,3 +19,7 @@ a:hover, a:active {
 #code {
     margin-top: 25%;
 }
+
+#indexlinks {
+    overflow: auto;
+}
