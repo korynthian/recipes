@@ -16,8 +16,14 @@ a:hover, a:active {
   background-color: #353535;
 }
 
-#code {
-    margin-top: 25%;
+.footer {
+   position: fixed;
+   left: 0;
+   bottom: 0;
+   width: 100%;
+   background-color: gray;
+   color: white;
+   text-align: center;
 }
 
 #indexlinks {
