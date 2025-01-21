@@ -30,9 +30,6 @@ a:hover, a:active {
    position: fixed;
    left: 0;
    top: 0;
-   width: 100%;
-   background-color: gray;
-   color: white;
    text-align: center;
 }
 
