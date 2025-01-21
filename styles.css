@@ -26,12 +26,6 @@ a:hover, a:active {
    text-align: center;
 }
 
-.header {
-   position: fixed;
-   left: 0;
-   top: 0;
-   text-align: center;
-}
 
 #indexlinks {
     overflow: auto;
