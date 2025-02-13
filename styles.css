@@ -6,7 +6,8 @@ body {
 a:link, a:visited {
   background-color: #3d3d3d;
   color: white;
-  padding: 25px;
+  padding: 20px 25px;
+  margin: 3px;
   text-align: center;
   text-decoration: none;
   display: inline-block;
@@ -16,9 +17,37 @@ a:hover, a:active {
   background-color: #353535;
 }
 
+@keyframes scroll-left {
+    0% {
+        transform: translateX(100%);
+    }
+    100% {
+        transform: translateX(-100%);
+    }
+}
+
+.scrolling-container {
+  width: 100%;              /* Full width */
+  overflow-x: auto;         /* Enable horizontal scrolling */
+  overflow-y: hidden;       /* Disable vertical scrolling */
+  white-space: nowrap;      /* Keep items in a single line */
+  background-color: #2c2c2c;/* (Optional) Change background for contrast */
+  padding: 10px 0;
+  margin-bottom: 20px;      /* Space below the scrolling area */
+  scrollbar-width: none;    /* Hide scrollbar */
+}
+
+.scrolling-content {
+    display: flex; /* Flexbox to lay out the links horizontally */
+    animation: scroll-left 15s linear infinite; /* Apply the scroll animation */
+}
+
+.scrolling-container:hover .scrolling-content {
+  animation-play-state: paused;
+}
+
 .footer {
    position: fixed;
-   left: 0;
    bottom: 0;
    width: 100%;
    background-color: gray;
@@ -27,6 +56,3 @@ a:hover, a:active {
 }
 
 
-#indexlinks {
-    overflow: auto;
-}
