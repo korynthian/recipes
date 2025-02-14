@@ -31,13 +31,13 @@ a:hover, a:active {
 
 .scrolling-content {
   display: inline-block;
-  /* We'll control movement via JS, so no CSS animation here */
 }
 
 .footer {
+  margin: 1.75% 0;
+  width: 96.5%;
   position: fixed;
   bottom: 0;
-  width: 100%;
   background-color: gray;
   color: white;
   text-align: center;
